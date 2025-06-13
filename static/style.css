@@ -1,0 +1,7 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+}
+.flash.danger {
+    color: red;
+}
