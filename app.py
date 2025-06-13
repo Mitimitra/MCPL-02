@@ -9,7 +9,7 @@ app.secret_key = os.environ.get('SECRET_KEY', 'Mitimitra@7')
 DATABASE_URL = os.environ.get('DATABASE_URL')
 
 def get_db_connection():
-    return psycopg2.connect(database = "MCPL01", user = "postgres", password = "Mitimitra@7", host = "localhost", port = "5432")
+    return psycopg2.connect(database = "mcpldb", user = "mahesh", password = "n3AX3Y8blveTJkvPFdkxE6oNLibVAJcX", host = "dpg-d15u40emcj7s73dq6u50-a.oregon-postgres.render.com", port = "5432")
 
 @app.route('/')
 def home():
